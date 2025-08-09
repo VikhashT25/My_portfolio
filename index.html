@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="icon" href="./assets/Icons/portfolio.png" type="image/x-icon">
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+  <header class="main-header">
+    <div class="container nav-header scroll-hidden">
+      <div class="logo"><b>Vikhash portfolio</b></div>
+      <nav class="nav scroll-hidden">
+        <b><a href="#skills">Skills</a>
+        <a href="#edu"> Volunteer Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#about">About</a>
+        <a href="#connect">Contact</a></b>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero container scroll-hidden">
+    <div class="hero-text">
+      <h1>Hi, I am <span class="auto-type"></span> </h1>
+      <p>Front-end developer and designer focused on building beautiful digital experiences.</p>
+      <button class="main-btn" ><a href="#connect"  style="text-decoration: none;" >Connect with me</a> </button>
+      <br><button class="sub-btn 2" ><a href="./assets/VIKHASH_Resume_ (3).pdf"  style="text-decoration: none;" >Download CV</a> </button>
+    </div>
+    <div class="hero-img scroll-hidden">
+      <img src="./assets/profile pic.jpeg" alt="Profile Picture" />
+    </div>
+  </section>
+
+  <section class="skills-section scroll-hidden" id="skills">
+    <h2 class="skills-title">My Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-item" data-name="HTML5">
+        <img src="./assets/Icons/New folder/html-5 (2).png" alt="HTML5" />
+      </div>
+      <div class="skill-item" data-name="CSS3">
+        <img src="./assets/Icons/New folder/css-3 (1).png" alt="CSS3" />
+      </div>
+      <div class="skill-item" data-name="JavaScript">
+        <img src="./assets/Icons/New folder/js (1).png" alt="JavaScript" />
+      </div>
+      <div class="skill-item" data-name="React">
+        <img src="./assets/Icons/New folder/python.png" alt="python" />
+      </div>
+      <div class="skill-item" data-name="VS Code">
+        <img src="./assets/Icons/New folder/512px-Visual_Studio_Code_1.35_icon.svg.png" alt="VS Code" />
+      </div>
+      <div class="skill-item" data-name="Git">
+        <img src="./assets/Icons/New folder/social.png" alt="Git" />
+      </div>
+      <div class="skill-item" data-name="GitHub">
+        <img src="./assets/Icons/New folder/github 2.png" alt="GitHub" />
+      </div>
+      <div class="skill-item" data-name="Bootstrap">
+        <img src="./assets/Icons/New folder/mongodb_original_wordmark_logo_icon_146425.png" alt="MongoDb" />
+      </div>
+    </div>
+    <div id="skill-tooltip"></div>
+  </section>
+
+  <div class="container">
+	
+	<main class="row">
+		
+		<!--   *******  Education Section Starts  *******   -->
+
+		<section class="col" id="edu">
+			
+			<header class="title scroll-hidden">
+				<h2>EDUCATION</h2>
+			</header>
+
+			<div class="contents scroll-hidden">
+				
+				<div class="box">
+					<h4>2020 - 2021</h4>
+					<h3>T.K.S.Hr.Sec,School (Bio-maths)</h3>
+					<p>Percentage: 85</p></div>
+
+				<div class="box">
+					<h4>2021 - 2025</h4>
+					<h3> Info Institute Of Engineering, B.E (Computer Science and Engineering)</h3>
+					<p> CGPA: 8.1</p>
+				</div>
+
+			</div>
+		</section>
+
+		<!--   *******  Education Section Ends  *******   -->
+
+		<!--   *******  Experience Section Starts  *******  -->
+
+		<section class="col" id="edu">
+			
+			<header class="title scroll-hidden">
+				<h2>VOLUNTEER EXPERIENCE</h2>
+			</header>
+
+			<div class="contents scroll-hidden">
+				
+				<div class="box">
+					<h4>Aug. 2023- Jul. 2024</h4>
+					<h3> Ex,GDSC Cloud lead</h3>
+					<p>Lead the team to complete Google Cloud study jams</p>
+				</div>
+
+				<div class="box">
+					<h4> Aug. 2024- Mar. 2025</h4>
+					<h3>Ex,GDG Core Team member</h3>
+					<p>Involved in GDG technical events as Team member</p>
+				</div>
+
+			</div>
+		</section>
+
+		<!--   *******  Experience Section Ends   *******  -->
+	</main>
+</div>
+
+  
+
+  <section class="projects-section scroll-hidden" id="projects">
+    <h2 class="section-title">Featured Projects</h2>
+    <p class="section-subtitle">Here are a few design & development projects I've worked on recently.</p>
+    <div class="projects-list">
+      <div class="project-card">
+        <img src="./assets/project-Thumbnail.png" alt="Promo Landing" class="project-img" />
+        <div class="project-info">
+          <h3>Ai-powered virtual professor & concept visualizer</h3>
+          <p><b>Using React.js, FastAPI, Gemini API, Firebase. We created an AI-powered web application that can automatically
+              create mind maps based on multimodal inputs and natural language processing (NLP) and offer real-time academic
+              assistance.</b></p>
+          <span class="project-tags">Reactjs • Front-end Dev</span>
+          <a href="https://project-sigma-mocha.vercel.app/" class="view-project">View Project →</a>
+        </div>
+      </div>
+      <div class="project-card">
+        <img src="./assets/project-Thumbnail 2.png" alt="Blog site" class="project-img" />
+        <div class="project-info">
+          <h3>Blog site for Travel</h3>
+          <p><b>Created a blog website using(HTML, CSS, and JavaScript). This project aimed to create a dynamic and user-friendly
+              platform for sharing Travel experience and engaging with readers.</b>
+          </p>
+          <span class="project-tags">Html,css,javacript • Front-end Dev</span>
+          <a href="https://blog-website-six-pi.vercel.app/" class="view-project">View Project →</a>
+        </div>
+      </div>
+      <div class="project-card">
+        <img src="./assets/project-Thumbnail 3.png" alt="NM-Notes-Sharing-Application" class="project-img" />
+        <div class="project-info">
+          <h3>Notes-Sharing-Application</h3>
+          <p><b>Developed a Django-based application with organized content access, upload capabilities, and login for safe note
+              exchange between educators and students.</b>
+          </p>
+          <span class="project-tags">Python-Django</span>
+          <a href="https://github.com/VikhashT25/NM-Notes-Sharing-Application" class="view-project">View Project →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about-section container scroll-hidden" id="about">
+    <h2 class="section-title">About Me</h2>
+    <p>
+      &nbsp;&nbsp;&nbsp;I am a passionate web developer with expertise in Python, HTML, CSS, and JavaScript. As a fresher, I bring curiosity, adaptability, and a commitment to continuous learning. My aim is to contribute to real-world development teams, learn from experienced developers, and grow into a full-stack professional. Let’s create something incredible together!
+    </p>
+  </section>
+    
+  <section class="connect-section scroll-hidden" id="connect">
+  <div class="container">
+    <h2 class="section-title">Let's Connect</h2>
+    <p>want to work together?</p>
+    <div class="social-links">
+      <a href="https://www.linkedin.com/in/vikhash-t7/" target="_blank" title="LinkedIn">
+        <img src="./assets/Icons/linkedin (2).png" alt="LinkedIn" />
+      </a>
+      <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox" target="_blank" title="Gmail">
+        <img src="./assets/Icons/gmail.png" alt="Gmail" />
+      </a>
+      <a href="https://github.com/VikhashT25" target="_blank" title="GitHub">
+        <img src="./assets/Icons/New folder/github 2.png" alt="GitHub" />
+      </a>
+      <a href="https://x.com/T_Vikhash" target="_blank" title="X">
+        <img src="./assets/Icons/icons8-x-50.png" alt="X" />
+      </a>
+      <a href="https://www.instagram.com/mr_perfect_vk_07/" target="_blank" title="Instagram">
+        <img src="./assets/Icons/instagram.png" alt="Instagram" />
+      </a>
+    </div>
+  </div>
+  </section>
+    
+<form action="" method="POST" class="contact-form scroll-hidden" id="contactForm">
+     <b><h2>Contact me</h2></b> 
+      <input type="text" name="name"  placeholder="Full Name" required />
+      <input type="email" name="email" placeholder="Email" required />
+      <textarea name="message" rows="3" placeholder="Message" required></textarea>
+      <button type="submit" class="main-btn">Send</button>
+    </form>
+
+
+  <!-- EmailJS SDK -->
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+  </section>
+
+  <footer>
+    <div class="container scroll-hidden">
+      &copy; 2025 Vikhash portfolio.All rights reserved
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+  <script>
+    var typed = new Typed(".auto-type",{
+        strings : ["Vikhash","Programmer","Data Engineer","Designer"],
+        typeSpeed : 150,
+        backSpeed : 150,
+        looped : true
+    });
+  </script>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
