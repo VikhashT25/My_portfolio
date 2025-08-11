@@ -1,12 +1,5 @@
 // --- Contact Form Handling ---
-const form = document.getElementById('contactForm');
 const messageBox = document.getElementById('formMessage');
-
-form.addEventListener('submit', function(e) {
-  e.preventDefault();
-  form.reset();
-  messageBox.textContent = "Thank you for reaching out! I'll be in touch soon.";
-});
 
 // --- Skills Tooltip Handling ---
 const skills = document.querySelectorAll(".skill-item");
@@ -45,6 +38,26 @@ document.addEventListener("DOMContentLoaded", function () {
   );
 
   animatedEls.forEach(el => observer.observe(el));
+});
+// mail send
+const btn = document.getElementById('su');
+
+document.getElementById('contactForm').addEventListener('submit', function(event) {
+  event.preventDefault();
+
+  btn.value = 'Sending...';
+
+  const serviceID = 'default_service';
+  const templateID = 'template_7xxtkei';
+
+  emailjs.sendForm(serviceID, templateID, this)
+    .then(() => {
+      btn.value = 'Send Email';
+      alert('Sent!');
+    }, (err) => {
+      btn.value = 'Send Email';
+      alert(JSON.stringify(err));
+    });
 });
 
 

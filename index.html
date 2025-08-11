@@ -198,11 +198,11 @@
   </section>
     
 <form action="" method="POST" class="contact-form scroll-hidden" id="contactForm">
-     <b><h2>Contact me</h2></b> 
+    <b><h2>Contact me</h2></b> 
       <input type="text" name="name"  placeholder="Full Name" required />
       <input type="email" name="email" placeholder="Email" required />
       <textarea name="message" rows="3" placeholder="Message" required></textarea>
-      <button type="submit" class="main-btn">Send</button>
+      <button type="submit" id='su' class="main-btn">Send</button>
     </form>
 
 
@@ -229,7 +229,13 @@
   </script>
 
 
-  <script src="script.js"></script>
+<script src="script.js"></script>
+<script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<script type="text/javascript">
+  emailjs.init('2rnKPvdJuJMf9TNdO')
+</script>
 </body>
 </html>
 
