@@ -50,6 +50,8 @@ body {
   color: var(--primary);
 }
 
+
+
 /* --------------------------
    HERO SECTION
 --------------------------- */
@@ -101,14 +103,14 @@ span { color: #f4ff7a; }
   color: #000;
 }
 .main-btn:hover {
-  background: var(--accent); color: var(--background);
+  background: var(--primary);
 }
 .sub-btn {
   background: #fff;
   color: #000;
 }
 .sub-btn:hover {
-  background: var(--accent); color: var(--background);
+  background: var(--primary);
 }
 
 /* --------------------------
@@ -120,7 +122,7 @@ span { color: #f4ff7a; }
   position: relative;
 }
 .skills-title {
-  color: #321888;
+  color: #d87f0b;
   font-size: 2.1rem;
   margin-bottom: 32px;
 }
@@ -162,7 +164,7 @@ span { color: #f4ff7a; }
 }
 #skill-tooltip {
   position: absolute;
-  background: #321888;
+  
   color: #fff;
   padding: 7px 18px;
   border-radius: 8px;
@@ -246,6 +248,20 @@ main.row {
   background: var(--background);
   padding: 3.5rem 0 2rem 0;
 }
+
+.projects-section button {
+  background-color: white;
+  height: 40px;
+  width: 70px;
+  border-radius: 40px;
+  box-shadow:#1a1a1a;
+}
+
+.projects-section button:hover {
+  border: 1px solid transparent;
+  box-shadow: 0 7px 25px rgba(46,24,136,0.13), 0 2px 5px #ccc;
+}
+
 .section-title {
   font-size: 1.6rem;
   font-weight: 700;
