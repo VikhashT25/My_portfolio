@@ -74,13 +74,25 @@ body {
 }
 .hero-img img {
   width: 250px;
-  height: 200px;
+  height: 210px;
   object-fit: cover;
   border-radius: 50%;
   background: var(--foreground);
   box-shadow: 0 2px 18px rgba(0,0,0,0.18);
   border: 2px solid whitesmoke;
+  transition: all 0.3s ease;
 }
+
+/* 📱 Mobile view */
+@media (max-width: 600px) {
+  .hero-img img {
+    width: 160px;
+    height: 160px;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.15);
+    border: 1.5px solid #f5f5f5;
+  }
+}
+
 .hero-text h1 {
   font-size: 2.4rem;
   margin-bottom: 0.6rem;
@@ -292,6 +304,7 @@ main.row {
   flex-direction: column;
   gap: 2rem;
 }
+
 .project-card {
   display: flex;
   background: var(--foreground);
@@ -301,7 +314,8 @@ main.row {
   width: 1000px;
   align-self: center;
 }
-.project-card.img {
+
+.project-card img {
   width: 350px;
   height: 250px;
   object-fit: cover;
