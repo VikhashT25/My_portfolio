@@ -69,7 +69,7 @@ body {
   width: 220px;
   height: 250px;
   object-fit: cover;
-  border-radius: 90px;
+  border-radius: 50%;
   background: var(--foreground);
   box-shadow: 0 2px 18px rgba(0,0,0,0.18);
   border: 2px solid whitesmoke;
@@ -99,7 +99,9 @@ span { color: #f4ff7a; }
   transition: background 0.18s;
   background: #fff;
 }
-.main-btn,
+.main-btn a{
+  color: #000;
+}
 .sub-btn a {
   color: #000;
 }
