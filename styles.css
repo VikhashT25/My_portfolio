@@ -310,7 +310,7 @@ main.row {
 .project-info h3 {
   font-size: 1.16rem;
   margin-bottom: 0.5rem;
-  color: var(--primary);
+  color: white;
   text-align: justify;
 }
 .project-info p {
