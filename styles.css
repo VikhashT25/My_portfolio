@@ -491,7 +491,7 @@ footer {
     align-items: flex-start;
     width: 100%;
   }
-  .project-img { width: 100%; height: 160px; }
+  .projects-img { width: 100%; height: 160px; }
   h1, h2, h3 { font-size: 1.06rem; }
   .about-section p { padding-left: 6px; font-size: 1rem;}
   .contact-form { max-width: 100%; }
