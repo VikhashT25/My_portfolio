@@ -69,7 +69,7 @@ body {
   width: 220px;
   height: 250px;
   object-fit: cover;
-  border-radius: 70px;
+  border-radius: 90px;
   background: var(--foreground);
   box-shadow: 0 2px 18px rgba(0,0,0,0.18);
   border: 2px solid whitesmoke;
@@ -98,6 +98,9 @@ span { color: #f4ff7a; }
   margin-top: 0.5rem;
   transition: background 0.18s;
   background: #fff;
+}
+.main-btn,
+.sub-btn a {
   color: #000;
 }
 .main-btn:hover {
