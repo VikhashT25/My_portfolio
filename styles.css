@@ -97,17 +97,12 @@ span { color: #f4ff7a; }
   cursor: pointer;
   margin-top: 0.5rem;
   transition: background 0.18s;
-}
-.main-btn {
+  text-decoration: none;
   background: #fff;
   color: #000;
 }
 .main-btn:hover {
   background: var(--primary);
-}
-.sub-btn {
-  background: #fff;
-  color: #000;
 }
 .sub-btn:hover {
   background: var(--primary);
