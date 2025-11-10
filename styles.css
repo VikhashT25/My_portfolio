@@ -402,14 +402,8 @@ main.row {
   display: flex; gap: 1rem;
   padding-left: center;
 }
-#tan h2{
-  text-align: center;
-  color:#d87f0b;
-  font-size: 1.6rem;
-  font-weight: 700;
-}
-.container h2{
-  text-align: center;
+#tan {
+  padding-left: 35px;
   color:#d87f0b;
   font-size: 1.6rem;
   font-weight: 700;
