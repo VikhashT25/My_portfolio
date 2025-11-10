@@ -216,6 +216,9 @@ span { color: #f4ff7a; }
   padding: 35px 10%;
   padding-top: 50px;
 }
+.container h2{
+  align-items: center;
+}
 main.row {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -400,7 +403,7 @@ main.row {
 .social-links {
   margin: 0.8rem 0 1.8rem 0;
   display: flex; gap: 1rem;
-  padding-left: 12px;
+  padding-left: center;
 }
 .social-links img {
   height: 25px;
