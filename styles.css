@@ -301,7 +301,7 @@ main.row {
   width: 1000px;
   align-self: center;
 }
-.projects-list img {
+.project-card.img {
   width: 350px;
   height: 250px;
   object-fit: cover;
