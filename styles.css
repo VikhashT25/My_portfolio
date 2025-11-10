@@ -72,11 +72,20 @@ body {
 .hero-text {
   max-width: 45%;
 }
+
+.hero-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 20px auto;
+}
+
 .hero-img img {
   width: 250px;
-  height: 210px;
+  height: 300px;
   object-fit: cover;
-  border-radius: 50%;
+  border-radius: 20%;
   background: var(--foreground);
   box-shadow: 0 2px 18px rgba(0,0,0,0.18);
   border: 2px solid whitesmoke;
