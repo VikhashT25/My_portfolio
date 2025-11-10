@@ -400,10 +400,10 @@ main.row {
 .social-links {
   margin: 0.8rem 0 1.8rem 0;
   display: flex; gap: 1rem;
-  padding-left: center;
+  padding-left: 35px;
 }
 #tan {
-  padding-left: 35px;
+  text-align: center;
   color:#d87f0b;
   font-size: 1.6rem;
   font-weight: 700;
