@@ -235,10 +235,16 @@ main.row {
   font-family: helvetica;
   color: #444;
 }
+.box h5 {
+  font-size: 17px;
+  padding: 10px 0px 6px;
+  font-family: helvetica;
+  color: #444;
+}
 .box p {
   line-height: 1.2;
   color: #666;
-  font-size: 17px;
+  font-size: 15px;
 }
 
 /* --------------------------
@@ -364,6 +370,7 @@ main.row {
 .social-links {
   margin: 0.8rem 0 1.8rem 0;
   display: flex; gap: 1rem;
+  padding-left: 12px;
 }
 .social-links img {
   height: 25px;
