@@ -61,6 +61,34 @@ document.getElementById('contactForm').addEventListener('submit', function(event
 });
 
 
+// Wait for the DOM to load
+document.addEventListener("DOMContentLoaded", () => {
+  // Select all anchor links inside nav that start with #
+  const navLinks = document.querySelectorAll('nav a[href^="#"]');
+
+  navLinks.forEach(link => {
+    link.addEventListener("click", (e) => {
+      e.preventDefault(); // Prevent default jump
+
+      const targetId = link.getAttribute("href").substring(1); // Get ID (without #)
+      const targetSection = document.getElementById(targetId);
+
+      if (targetSection) {
+        // Smooth scroll to section
+        window.scrollTo({
+          top: targetSection.offsetTop - 70, // Adjust if you have fixed header
+          behavior: "smooth"
+        });
+      }
+    });
+  });
+});
+
+
+
+
+
+
 
 
   
