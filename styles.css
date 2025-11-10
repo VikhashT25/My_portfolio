@@ -105,6 +105,7 @@ span { color: #f4ff7a; }
   margin-top: 0.5rem;
   transition: background 0.18s;
   background: #fff;
+  scroll-behavior: smooth;
 }
 .main-btn a{
   color: #000;
@@ -300,7 +301,7 @@ main.row {
   width: 1000px;
   align-self: center;
 }
-.project-card img {
+.projects-list img {
   width: 350px;
   height: 250px;
   object-fit: cover;
