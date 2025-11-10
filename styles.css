@@ -402,7 +402,7 @@ main.row {
   display: flex; gap: 1rem;
   padding-left: center;
 }
-#tan h2{
+#tan {
   text-align: center;
   color:#d87f0b;
   font-size: 1.6rem;
