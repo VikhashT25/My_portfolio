@@ -405,11 +405,14 @@ main.row {
 .social-links h2{
   text-align: center;
   color:#d87f0b;
+  font-size: 1.6rem;
+  font-weight: 700;
 }
 .social-links img {
   height: 25px;
   width: 30px;
   transition: all 0.2s;
+  align-items: center;
 }
 .social-links a {
   font-size: 1.5rem;
