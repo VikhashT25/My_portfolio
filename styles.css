@@ -42,11 +42,18 @@ body {
   color: var(--text);
   margin-left: 2rem;
   text-decoration: none;
-  font-weight: 400;
   font-size: 1rem;
-  transition: color 0.2s;
+}
+.nav a {
   scroll-behavior: smooth;
 }
+
+.nav a {
+  margin: 0 15px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
 .nav a:hover {
   color: var(--primary);
 }
@@ -67,7 +74,7 @@ body {
   max-width: 45%;
 }
 .hero-img img {
-  width: 300px;
+  width: 400px;
   height: 350px;
   object-fit: cover;
   border-radius: 50%;
