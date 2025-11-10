@@ -402,7 +402,7 @@ main.row {
   display: flex; gap: 1rem;
   padding-left: center;
 }
-.social-links h2{
+#tan h2{
   text-align: center;
   color:#d87f0b;
   font-size: 1.6rem;
