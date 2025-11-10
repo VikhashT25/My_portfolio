@@ -66,8 +66,8 @@ body {
   max-width: 45%;
 }
 .hero-img img {
-  width: 220px;
-  height: 250px;
+  width: 260px;
+  height: 300px;
   object-fit: cover;
   border-radius: 50%;
   background: var(--foreground);
