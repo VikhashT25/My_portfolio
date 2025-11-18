@@ -400,7 +400,7 @@ main.row {
   gap: 1rem;
   padding-top: 15px;
   padding-left: 30px;
-  align-items: center;
+  justify-self: center;
 }
 .social-links img {
   height: 25px;
