@@ -398,7 +398,6 @@ main.row {
   justify-self: center;
 }
 #tan {
-  text-align: center;
   color:#d87f0b;
   font-size: 1.6rem;
   font-weight: 700;
@@ -410,7 +409,7 @@ main.row {
   margin: 0.8rem 0 1.8rem 0;
   display: flex; gap: 1rem;
   padding-top: 12px;
-  padding-left: 35px;
+  padding-left: 25px;
 }
 .social-links img {
   height: 25px;
