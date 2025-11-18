@@ -401,15 +401,15 @@ main.row {
   color:#d87f0b;
   font-size: 1.6rem;
   font-weight: 700;
-  padding-top: 30px;
+  padding-top: 25px;
   display: flex;
-  justify-self: center;
+  text-align: center;
 }
 .social-links {
-  margin: 0.8rem 0 1.8rem 0;
-  display: flex; gap: 1rem;
+  display: flex; 
+  gap: 1rem;
   padding-top: 12px;
-  padding-left: 25px;
+  padding-left: 30px;
 }
 .social-links img {
   height: 25px;
