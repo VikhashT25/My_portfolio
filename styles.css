@@ -398,8 +398,9 @@ main.row {
 .social-links {
   display: flex; 
   gap: 1rem;
-  padding-top: 12px;
+  padding-top: 15px;
   padding-left: 30px;
+  align-items: center;
 }
 .social-links img {
   height: 25px;
