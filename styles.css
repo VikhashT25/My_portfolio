@@ -385,18 +385,11 @@ main.row {
   padding-left: 50px;
 }
 .connect-section {
-  background: var(--subtext);
+  background: var(--background);
   padding: 3rem 0;
-  background-color: #171717;
+  min-height: 130px;
 }
-.connect-section .container {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  background-color: #171717;
-  padding-left: 50px;
-  justify-self: center;
-}
+
 #tan {
   color:#d87f0b;
   font-size: 1.6rem;
